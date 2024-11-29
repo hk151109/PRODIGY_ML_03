@@ -74,7 +74,6 @@ pip install opencv-python numpy scikit-learn pandas
 1. Clone the repository:
 ```bash
 git clone https://github.com/yourusername/image-classification-svm.git
-cd image-classification-svm
 ```
 
 2. Download the dataset from [Kaggle Dogs vs Cats Competition](https://www.kaggle.com/competitions/dogs-vs-cats/data)
@@ -105,25 +104,5 @@ The `image_classifications.csv` will contain:
 - `image`: Image number
 - `category`: Predicted category ("cat" or "dog")
 
-## Performance Metrics
-- Accuracy: To be determined based on your specific dataset
-- Recommended: Add confusion matrix and classification report
-
-## Troubleshooting
-- Ensure all dependencies are installed
-- Check image file formats (jpg recommended)
-- Verify image paths in the script
-
-## Contributing
-1. Fork the repository
-2. Create your feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
-
 ## License
 MIT License - see LICENSE file for details
-
-## Acknowledgments
-- Dataset: Kaggle Dogs vs Cats Competition
-- Libraries: OpenCV, NumPy, Scikit-learn, Pandas
