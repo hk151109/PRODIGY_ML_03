@@ -73,7 +73,7 @@ pip install opencv-python numpy scikit-learn pandas
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/image-classification-svm.git
+git clone https://github.com/hk151109/PRODIGY_ML_03.git
 ```
 
 2. Download the dataset from [Kaggle Dogs vs Cats Competition](https://www.kaggle.com/competitions/dogs-vs-cats/data)
