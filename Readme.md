@@ -37,7 +37,7 @@ This repository contains the implementation of an image classification system us
 ```
 project_root/
 │   image_classifications.csv
-│   task3.py
+│   cats&dogs.py
 │
 ├───test1
 │   ├── 1.jpg
@@ -73,7 +73,7 @@ pip install opencv-python numpy scikit-learn pandas
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/hk151109/PRODIGY_ML_03.git
+git clone https://github.com/hk151109/Image-Classification-Using-SVM.git
 ```
 
 2. Download the dataset from [Kaggle Dogs vs Cats Competition](https://www.kaggle.com/competitions/dogs-vs-cats/data)
@@ -86,7 +86,7 @@ git clone https://github.com/hk151109/PRODIGY_ML_03.git
 
 ### Training the Model
 ```bash
-python task3.py
+python cats&dogs.py
 ```
 This script will:
 - Preprocess images
